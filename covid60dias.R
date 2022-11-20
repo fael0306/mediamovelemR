@@ -21,3 +21,4 @@ plot(tendenciamediamovel)
 
 # Gerando dados estatísticos
 summary(dados)
+summary(avg)
