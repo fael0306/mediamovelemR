@@ -18,3 +18,6 @@ tendenciamediamovel = grafico1+geom_point(size=2.5)+geom_smooth(fill=NA)
 
 # Plotando o gráfico
 plot(tendenciamediamovel)
+
+# Gerando dados estatísticos
+summary(dados)
