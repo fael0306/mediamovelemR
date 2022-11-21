@@ -1,11 +1,13 @@
 install.packages('ggplot2')
 install.packages('zoo')
+install.packages('dplyr')
 
 library(ggplot2)
 library(zoo)
+library(dplyr)
 
 # Criando tabela com as médias móveis e armazenando em avg
-avg <- rollmean(dados,as.integer(sqrt(60)))
+avg <- rollmean(dados,as.integer(sqrt(count(dados[1]))))
 
 # Convertendo a tabela para o tipo de dados correto
 avg <- data.frame(avg)
