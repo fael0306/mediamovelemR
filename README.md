@@ -1,6 +1,6 @@
 # Média móvel em R
 
-Fornece o gráfico de tendência de média móvel e um resumo estatístico do número de casos diário de Covid dos últimos 60 dias
+Fornece o gráfico de tendência de média móvel e um resumo estatístico do número de casos diário de Covid dos últimos 60 dias.
 
 ![image](https://user-images.githubusercontent.com/25599308/202939196-a07c4294-285f-4bb7-a0ee-ebc88d639b23.png)
 
