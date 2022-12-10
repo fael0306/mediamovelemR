@@ -4,4 +4,4 @@ Fornece o gráfico de tendência de média móvel e um resumo estatístico do n�
 
 ![Rplot](https://user-images.githubusercontent.com/25599308/206810838-d9fc8580-2696-4359-9a20-550d0a3ef2f2.png)
 
-![statistics](https://user-images.githubusercontent.com/25599308/206653528-83c1aa76-557a-4783-abc3-c68bd7960031.PNG)
+![image](https://user-images.githubusercontent.com/25599308/206819930-535cc8f0-b176-4590-b703-d4dae8a83b8e.png)
