@@ -10,7 +10,7 @@ library(ggplot2)
 
 dados<-select(covid,location,date,new_cases)
 dados<-filter(dados,location=="Brazil")
-dados<-slice(dados,963:1022)
+dados<-slice(dados,971:1030)
 avg <- rollmean(dados[3],as.integer(sqrt(count_(dados))))
 avg <- data.frame(avg)
 grafico1 = ggplot(data = avg,aes(x=row(avg)+6,y=new_cases))+xlab("Dias")+ylab("Média móvel")
